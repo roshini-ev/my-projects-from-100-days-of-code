@@ -21,6 +21,8 @@ for i in id_list:
         will_rain = False
     if will_rain==True:
         print("Rain alert⚠️! Bring an umbrella☔!")
+        break
     elif will_rain==False:
         print("it's cloudy today 🌥️ !")
+
         break
